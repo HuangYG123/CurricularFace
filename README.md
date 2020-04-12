@@ -22,8 +22,7 @@ sh evaluate.sh
 You can change the experimental setting by simply modifying the parameter in the config.py
 
 ## Model
-The IR101 pretrained model can be downloaded.
-IR101 Backbone: 
+The IR101 pretrained model can be downloaded here. 
 [Baidu Cloud](link: https://pan.baidu.com/s/1bu-uocgSyFHf5pOPShhTyA 
 passwd: 5qa0), 
 [Google Drive](https://drive.google.com/open?id=1upOyrPzZ5OI3p6WkA5D5JFYCeiZuaPcp)
