@@ -16,7 +16,8 @@ This repository is the official PyTorch implementation of paper [CurricularFace:
 # To train the model:
 sh train.sh
 # To evaluate the model:
-set the checkpoint dir in config.py
+(1)please first download the val data in [val data](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
+(2)set the checkpoint dir in config.py
 sh evaluate.sh
 ```
 You can change the experimental setting by simply modifying the parameter in the config.py
