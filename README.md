@@ -28,6 +28,14 @@ The IR101 pretrained model can be downloaded here.
 passwd: 5qa0), 
 [Google Drive](https://drive.google.com/open?id=1upOyrPzZ5OI3p6WkA5D5JFYCeiZuaPcp)
 
+## Result
+The results of the released pretrained model are as follows:
+|Data| LFW | CFP-FP | CPLFW | AGEDB | CALFW | IJBB (TPR@FAR=1e-4) | IJBC (TPR@FAR=1e-4) |
+|:---:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Result | 99.80 | 98.36 | 93.13 | 98.37 | 96.05 | 94.86 | 96.15 ||
+
+The results are slightly different from the results in the paper because we replaced DataParallel with DistributedDataParallel and retrained the model.
+
 ## Citing this repository
 If you find this code useful in your research, please consider citing us:
 ```
