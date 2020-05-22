@@ -1,7 +1,7 @@
 ## CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition
 Yuge Huang, Yuhan Wang, Ying Tai, Xiaoming Liu, Pengcheng Shen, Shaoxin Li, Jilin Li, Feiyue Huang
 
-This repository is the official PyTorch implementation of paper [CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition](). (The work has been accepted by [CVPR2020](http://cvpr2020.thecvf.com/))
+This repository is the official PyTorch implementation of paper [CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition](https://arxiv.org/abs/2004.00288). (The work has been accepted by [CVPR2020](http://cvpr2020.thecvf.com/))
 
 ## Main requirements
 
