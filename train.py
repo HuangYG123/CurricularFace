@@ -34,16 +34,16 @@ def adjust_learning_rate(optimizer, epoch, cfg):
 
 def main():
     cfg = configurations[1]
-    SEED = cfg['SEED'] # random seed for reproduce results
-    torch.manual_seed(SEED)
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = True
     ngpus_per_node = torch.cuda.device_count()
     world_size = cfg['WORLD_SIZE']
     cfg['WORLD_SIZE'] = ngpus_per_node * world_size
     mp.spawn(main_worker, nprocs=ngpus_per_node, args=(ngpus_per_node, cfg))
     
 def main_worker(gpu, ngpus_per_node, cfg):
+    SEED = cfg['SEED'] # random seed for reproduce results
+    torch.manual_seed(SEED)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = True
     cfg['GPU'] = gpu
     if gpu != 0:
         def print_pass(*args):
