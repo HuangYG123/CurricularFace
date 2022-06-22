@@ -1,5 +1,5 @@
 bcolz==1.2.1
-numpy==1.14.2
+numpy==1.22.0
 tensorboardX==1.7
 torch==1.1.0
 torchvision==0.3.0
